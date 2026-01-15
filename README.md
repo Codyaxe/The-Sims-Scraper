@@ -1,6 +1,4 @@
 # The Sims Resource Scraper
-
-## Description
 The Sims Resource Scraper is a Python script designed to scrape download links from The Sims Resource (TSR) website. It collects links to downloadable content and saves them in both text and CSV formats for easy access.
 
 ## Features
@@ -16,16 +14,15 @@ The Sims Resource Scraper is a Python script designed to scrape download links f
   - `beautifulsoup4`
 
 ## Installation
-1. Clone this repository or download the script.
-2. Install the required dependencies:
-   ```bash
-   pip install requests beautifulsoup4
+1. Run the `setup.bat` file to set up the virtual environment and install dependencies:
+   ```
+   setup.bat
    ```
 
 ## Usage
-1. Run the script:
-   ```bash
-   python tsr_scraper.py
+1. Use the `run.bat` file to start the scraper:
+   ```
+   run.bat
    ```
 2. Follow the prompts:
    - Enter the base page URL of the author.
@@ -49,6 +46,3 @@ What is the end page of the author?
 ## Notes
 - Ensure the base URL is correct and points to the author's download page.
 - The script includes a polite delay between requests to avoid overloading the server.
-
-## License
-This project is licensed under the Copyleft License. You are free to use, modify, and distribute this software, provided that all modifications and derivatives are also licensed under the same terms.
