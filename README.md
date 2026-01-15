@@ -2,7 +2,7 @@
 The Sims Resource Scraper is a Python script designed to scrape download links from The Sims Resource (TSR) website. It collects links to downloadable content and saves them in both text and CSV formats for easy access.
 
 ## Features
-- Scrapes download links from TSR pages.
+- Scrapes item catalog links from TSR pages.
 - Saves links to a text file (`tsr_links.txt`).
 - Saves links to a CSV file (`tsr_links.csv`).
 - Handles pagination and avoids duplicate links.
